@@ -1,4 +1,4 @@
-﻿namespace Exp002_Sb_Saga
+﻿namespace Exp002_Sb_SagaCommon
 {
     public interface ITripStarted : ILog
     {

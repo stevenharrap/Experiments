@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exp002_Sb_Saga
+namespace Exp002_Sb_SagaCommon
 {
     public interface ILog
     {

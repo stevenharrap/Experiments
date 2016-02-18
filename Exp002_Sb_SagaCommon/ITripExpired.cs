@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exp002_Sb_Saga
+namespace Exp002_Sb_SagaCommon
 {
     public interface ITripExpired
     {

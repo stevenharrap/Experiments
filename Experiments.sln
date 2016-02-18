@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp001_Sb_Subscriber", "Exp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp002_Sb_Saga", "Exp002_Sb_Saga\Exp002_Sb_Saga.csproj", "{094D7C58-F78A-4ADF-87A5-9551C6EC5D8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp002_Sb_SagaCommon", "Exp002_Sb_SagaCommon\Exp002_Sb_SagaCommon.csproj", "{5A32D1F9-D2F1-483A-A98F-D8712C03A1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp002_Sb_SagaClient", "Exp002_Sb_SagaClient\Exp002_Sb_SagaClient.csproj", "{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{094D7C58-F78A-4ADF-87A5-9551C6EC5D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094D7C58-F78A-4ADF-87A5-9551C6EC5D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094D7C58-F78A-4ADF-87A5-9551C6EC5D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A32D1F9-D2F1-483A-A98F-D8712C03A1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A32D1F9-D2F1-483A-A98F-D8712C03A1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A32D1F9-D2F1-483A-A98F-D8712C03A1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A32D1F9-D2F1-483A-A98F-D8712C03A1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,6 +7,7 @@ using MassTransit;
 using MassTransit.Saga;
 using Automatonymous;
 using System.Linq.Expressions;
+using Exp002_Sb_SagaCommon;
 
 namespace Exp002_Sb_Saga
 {
