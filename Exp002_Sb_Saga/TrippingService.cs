@@ -17,12 +17,12 @@ namespace Exp002_Sb_Saga
 
         private TrippingStateMachine machine { get; set; }
 
-        private InMemorySagaRepository<Trip> repository;
+        private InMemorySagaRepository<TripState> repository;
 
         public void Start()
         {
             this.machine = new TrippingStateMachine();
-            this.repository = new InMemorySagaRepository<Trip>();
+            this.repository = new InMemorySagaRepository<TripState>();
 
             this.busControl = Bus.Factory.CreateUsingRabbitMq(x =>
             {

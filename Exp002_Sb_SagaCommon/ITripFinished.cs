@@ -1,6 +1,13 @@
-﻿namespace Exp002_Sb_SagaCommon
+﻿using System;
+
+namespace Exp002_Sb_SagaCommon
 {
-    public interface ITripFinished : ILog
+    public interface ITripFinished
     {
+        Guid CorrelationId { get; set; }
+
+        int DeviceId { get; }
+
+        int DeviceTripId { get; }
     }
 }

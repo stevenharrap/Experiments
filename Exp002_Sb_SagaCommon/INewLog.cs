@@ -2,7 +2,7 @@
 {
     using System;
 
-    public interface ITripStarted
+    public interface INewLog
     {
         Guid CorrelationId { get; }
 

@@ -7,9 +7,14 @@ using System.Threading.Tasks;
 
 namespace Exp002_Sb_Saga
 {
-    public class Trip : SagaStateMachineInstance
+    public class TripState : SagaStateMachineInstance
     {
-        public string CurrentState { get; set; }
+        public TripState(Guid correlationId)
+        {
+            this.CorrelationId = correlationId;
+        }
+
+        public int State { get; set; }
 
         public Guid CorrelationId { get; set; }
 

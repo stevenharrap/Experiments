@@ -47,11 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ILog.cs" />
-    <Compile Include="ILogAdded.cs" />
+    <Compile Include="INewLog.cs" />
     <Compile Include="ITripExpired.cs" />
     <Compile Include="ITripFinished.cs" />
     <Compile Include="ITripStarted.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="NewLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TripStarted.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

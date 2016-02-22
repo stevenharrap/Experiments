@@ -8,14 +8,14 @@ namespace Exp002_Sb_SagaCommon
 {
     public interface ILog
     {
-        int DeviceId { get; }
+        int DeviceId { get; set; }
 
-        int DeviceTripId { get; }
+        int DeviceTripId { get; set; }
 
-        DateTime Timestamp { get; }
+        DateTime Timestamp { get; set; }
 
-        decimal Speed { get; }
+        decimal Speed { get; set; }
 
-        bool Ignition { get; }
+        bool Ignition { get; set; }
     }
 }
