@@ -6,6 +6,6 @@
     {
         Guid CorrelationId { get; }
 
-        ILog Log { get; }
+        //ILog Log { get; }
     }
 }

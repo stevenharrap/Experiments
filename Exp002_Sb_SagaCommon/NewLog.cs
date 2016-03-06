@@ -10,12 +10,12 @@ namespace Exp002_Sb_SagaCommon
     {
         public Guid CorrelationId { get; }
 
-        public ILog Log { get; }
+        //public ILog Log { get; }
 
         public NewLog(Guid correlationId, ILog log)
         {
             this.CorrelationId = correlationId;
-            this.Log = log;
+            //this.Log = log;
         }
     }
 }

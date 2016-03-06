@@ -34,6 +34,7 @@ namespace Exp002_Sb_SagaClient
 
                 var entered = Console.ReadLine();
 
+                Console.WriteLine("First log");
                 var log = new Log
                 {
                     DeviceId = 5000,
@@ -43,8 +44,10 @@ namespace Exp002_Sb_SagaClient
                     Ignition = false
                 };
 
-                await this.SendLog(log, bus, tripTracker);
+                await this.SendLog(log, bus, tripTracker);                
+                Console.ReadLine();
 
+                Console.WriteLine("Second log");
                 log = new Log
                 {
                     DeviceId = 5000,
@@ -53,8 +56,11 @@ namespace Exp002_Sb_SagaClient
                     Speed = 0,
                     Ignition = true
                 };
-
+                
                 await this.SendLog(log, bus, tripTracker);
+                Console.ReadLine();
+
+                Console.ReadLine();
 
                 log = new Log
                 {
@@ -91,7 +97,7 @@ namespace Exp002_Sb_SagaClient
             {
                 id = Guid.NewGuid();
 
-                await bus.Publish<ITripStarted>(new TripStarted(id, log));
+                await bus.Publish<ITripStarted>(new TripStarted(id));//, log));
                 tripTracker.Add(new TripKey(log.DeviceId, log.DeviceTripId), id);
             }
             else

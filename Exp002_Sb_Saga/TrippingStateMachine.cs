@@ -55,17 +55,20 @@ namespace Exp002_Sb_Saga
         {
             context.Instance.CorrelationId = context.Data.CorrelationId;
 
-            Console.Out.WriteLineAsync($"Trip started {context.Data.Log.DeviceId}, {context.Data.Log.DeviceTripId}. to {context.Instance.CorrelationId}");
+            //Console.Out.WriteLineAsync($"Trip started {context.Data.Log.DeviceId}, {context.Data.Log.DeviceTripId}. to {context.Instance.CorrelationId}");
+            Console.Out.WriteLineAsync($"Trip started. to {context.Instance.CorrelationId}");
         }
 
         public void HandleTripFinished(BehaviorContext<TripState, ITripFinished> context)
         {
-            Console.Out.WriteLineAsync($"Trip Finished {context.Data.DeviceId}, {context.Data.DeviceTripId}. to {context.Instance.CorrelationId}");
+            //Console.Out.WriteLineAsync($"Trip Finished {context.Data.DeviceId}, {context.Data.DeviceTripId}. to {context.Instance.CorrelationId}");
+            Console.Out.WriteLineAsync($"Trip Finished. to {context.Instance.CorrelationId}");
         }
 
         public void HandleNewLog(BehaviorContext<TripState, INewLog> context)
         {
-            Console.Out.WriteLineAsync($"New Log {context.Data.Log.DeviceId}, {context.Data.Log.DeviceTripId}. to {context.Instance.CorrelationId}");
+            //Console.Out.WriteLineAsync($"New Log {context.Data.Log.DeviceId}, {context.Data.Log.DeviceTripId}. to {context.Instance.CorrelationId}");
+            Console.Out.WriteLineAsync($"New Log. to {context.Instance.CorrelationId}");
         }
     }    
 }

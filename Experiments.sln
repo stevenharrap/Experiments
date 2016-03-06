@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp002_Sb_SagaCommon", "Exp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp002_Sb_SagaClient", "Exp002_Sb_SagaClient\Exp002_Sb_SagaClient.csproj", "{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp003_Akka_Server", "Exp003_Akka_Server\Exp003_Akka_Server.csproj", "{581DA140-D07D-4A3C-93CF-A89EDBFB0018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1550A464-BFF8-4C89-AA96-D2FC1CB17EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581DA140-D07D-4A3C-93CF-A89EDBFB0018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581DA140-D07D-4A3C-93CF-A89EDBFB0018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581DA140-D07D-4A3C-93CF-A89EDBFB0018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581DA140-D07D-4A3C-93CF-A89EDBFB0018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
